@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 ;
+    padding: 0;
+    background: #fff;
+    font-size: 14px;
+}
+
+
+.header {
+    height: 96px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    padding: 28px 0 28px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin-left: 46px;
+}
+
+.menu {
+    margin-right: 334px;
+}
+
+.menu ul{
+    display: flex;
+    margin: 0 0 0 62px;
+    padding: 0;
+    
+}
+
+.menu li {
+    list-style: none;
+    margin-right: 57px;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: #585858;
+    text-align: center;
+    font-size: 14px;
+}
+
+.menu-item:hover {
+    color: rgb(148, 146, 146);
+}
+
+.search {
+    background: none;
+    border: none;
+    float: right;
+}
+
+.sign-in {
+    margin-left: 25px;
+    margin-right: 40px;
+    background: none;
+    border: none;
+    width: 91px;
+    height: 48;
+    float: right;
+}
+
+.sign-in a {
+    text-decoration: none;
+    color: #585858;
+
+}
+
+.sign-in a:hover {
+    color: rgb(148, 146, 146) 
+}
+
+.sign-up {
+    width: 102px;
+    height: 48;
+    padding: 12px 24px;
+    border: none;
+    background: #FD665E;
+    float: right;
+    margin-right: 51px;
+    border-radius: 4px;
+    
+}
+
+.sign-up:hover {
+    opacity: 0.9;
+}
+
+.sign-up a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.section-1 {
+    margin: 48px 0 0 0;
+    max-width: 1440px;
+    margin: auto;
+} 
+
+.banner {
+    margin: 48px 0 285px 165px;
+}
+
+.text {
+    font-family: New York Extra Large;
+    font-size: 63px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    text-align: left;
+    font-style: normal;
+    line-height: 122px;
+
+}
+
+.text h1 {
+    margin: 0;
+}
+
+.house {
+    color: #FD665E;
+}
+
+.text-p {
+    width: 290px;
+    height: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    margin: 56px 0 0 0;
+}
+
+.text-p p {
+    margin: 0;
+}
+
+.consultation {
+    width: 115px;
+    height: 40px;
+    border: none;
+    background: #FD665E;
+    border-radius: 4px;
+    box-sizing: content-box;
+    padding: 8px 32px;
+    margin-top: 48px;
+    
+}
+
+.consultation:hover {
+    opacity: 0.9;
+}
+
+.consultation a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.section-2 {
+    padding-bottom: 64px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.galery {
+    margin: 64px 0 0 0; 
+}
+
+.tb {
+    display: flex;
+}
+
+.text-2{
+    text-align: center;
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 60px;
+    /* or 60px */
+    letter-spacing: -0.04em;
+    margin-left: 429px;
+    margin-right: 172px;
+    
+}
+
+.text-2 h1 {
+    margin: 0;
+    text-align: left;
+}
+
+.btns {
+    display: flex;
+    align-items: flex-end;
+}
+
+.btn-left {
+    margin-right: 24px;
+}
+
+.left {
+    border: 0;
+    background: inherit;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.left:hover {
+    opacity: 0.7;
+}
+
+.right {
+    border: 0;
+    background: rgba(0, 0, 0, 0.03);
+    padding: 17px 17px 16px 16px;
+    cursor: pointer;
+}
+
+.right:hover {
+    background: rgba(0, 0, 0, 0.055);
+} 
+
+.items {
+    display: flex;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.item-photo {
+    width: 305px;
+    height: 432px;
+    background: grey;
+    margin-right: 25px;
+}
+
+.section-3 {
+    padding-top: 64px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.txt-3{
+    width: 492px;
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 60px;
+    /* or 60px */
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin-left: 165px;
+}
+
+.txt-3 h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.group {
+    display: flex;
+    margin-top: 40px;
+}
+
+.image {
+    margin: 0 155px 0 165px;
+    width: 535px;
+    height: 610px;
+    background: grey;
+}
+
+.feature {
+    width: 371px;
+    height: 610px;
+    margin-top: 40px;
+}
+
+.feature-item {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.feature-item h4 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    letter-spacing: 0.01em;
+
+}
+
+.about {
+    margin-left: 38px;
+    
+}
+
+.about p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    /* or 26px */
+
+    letter-spacing: 0.01em;
+}
+
+.btn-cons {
+    text-align: center;
+}
+
+.cons {
+    width: 140px;
+    margin: 0;
+    padding: 8px 32px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 40px;
+    /* identical to box height, or 286% */
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.01em;
+    width: 140px;
+    border: none;
+    background: #FD665E;
+    border-radius: 4px;
+    box-sizing: content-box;
+
+}
+
+.cons:hover {
+    opacity: 0.9;
+}
+
+ .bg-gradient {
+    margin-top: 30px;
+    padding-top: 40px;
+    background: linear-gradient(180deg, #F9F9F9 22.12%, rgba(249, 249, 249, 0) 100%);
+
+} 
+
+.section-4 {
+    max-width: 1440px;
+    margin: auto;
+    padding-bottom: 64px;
+}
+
+.text-quote {
+    margin-left: 165px;
+    width: 370px;
+}
+
+.text-quote h4 {
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 124%;
+    /* or 60px */
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+.block-quote {
+    /* Як зробити щоб цей блок був справа, а наступна секція починалася з нового рядка?і
+    float: right;*/
+    display: flex;
+    width: 888px;
+    margin-right: 165px;
+    margin-left: 385px;
+}
+
+.quote-img {
+    margin-right: 52px;
+}
+
+.quote {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 29px;
+    line-height: 160%;
+    /* or 51px */
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.quote p {
+    margin: 0;
+}
+
+.author-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-row p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.rows {
+    display: flex;
+    align-items: baseline;
+    
+}
+
+.row-left {
+    margin-right: 24px;
+}
+
+.left {
+    border: 0;
+    background: inherit;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.left:hover {
+    opacity: 0.7;
+}
+
+.right {
+    border: 0;
+    background: rgba(0, 0, 0, 0.03);
+    padding: 17px 17px 16px 16px;
+    cursor: pointer;
+}
+
+.right:hover {
+    background: rgba(0, 0, 0, 0.055);
+} 
+
+.section-5 {
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.img-5 {
+    height: 684px;
+    width: 497px;
+    background: grey;
+    margin-right: 145px;
+    margin-left: 120px;
+    box-sizing: border-box;
+
+}
+
+.realize-text {
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 124%;
+    /* or 60px */
+    letter-spacing: -0.04em;
+}
+
+.realize-text h4 {
+    margin: 0;    
+}
+
+.txt-red {
+    color: #FD665E;
+}
+
+.realize-btn {
+    margin-top: 64px;
+}
+
+.realize {
+    width: 140px;
+    margin: 0;
+    padding: 8px 32px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 40px;
+    /* identical to box height, or 286% */
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.01em;
+    width: 140px;
+    border: none;
+    background: #FD665E;
+    border-radius: 4px;
+    box-sizing: content-box;
+}
+
+.realize:hover {
+    opacity: 0.9;
+}
+
+.section-6 {
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 64px;
+    padding-left: 165px;
+    padding-bottom: 64px; 
+}
+
+.text-partners {
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 124%;
+    /* identical to box height, or 60px */
+    letter-spacing: -0.04em;
+    margin-bottom: 16px;
+
+}
+
+.text-partners h4 {
+    margin: 0;
+}
+
+.partners-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.logo-item-1 {
+    height: 57px;
+    width: 161px;
+    background: grey;
+    margin-right: 80px;
+}
+
+.logo-item-2 {
+    height: 139px;
+    width: 140px;
+    background: grey;
+    margin-right: 80px
+}
+
+.logo-item-3 {
+    height: 57px;
+    width: 210px;
+    background: grey;
+    margin-right: 80px
+}
+
+.logo-item-4 {
+    height: 62px;
+    width: 94px;
+    background: grey;
+    margin-right: 80px
+}
+
+.logo-item-5 {
+    height: 121px;
+    width: 213px;
+    background: grey;
+}
+
+.footer {
+    max-width: 1440px;
+    margin: auto;
+    border-top: #F0F0F0 1px solid;
+    padding: 89px 280px 161px 165px;
+}
+
+.nav-footer {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.menu-footer{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.menu-footer li {
+    list-style: none;
+    margin-right: 57px;
+}
+
+.menu-item-footer {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 40px;
+    /* identical to box height, or 333% */
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #585858;
+}
+
+.menu-item:hover {
+    color: rgb(148, 146, 146);
+}
+
